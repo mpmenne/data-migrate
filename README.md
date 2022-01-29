@@ -110,7 +110,7 @@ Tasks work as they would with the 'vanilla' db version. The 'with_data' addition
 
 With 'up' and 'down', you can specify the option 'BOTH', which defaults to false. Using true, will migrate both the data and schema (in the desired direction) if they both match the version provided. Again, going up, schema is given precedence. Down its data.
 
-`rake db:migrate:status:with_data` provides and additional column to indicate which type of migration.
+`rake db:migrate:status:with_data` provides an additional column to indicate which type of migration.
 
 ### Configuration
 
